@@ -20,6 +20,10 @@
 <nav class="navbar navbar-expand-lg navbar-light border-bottom">
   <div class="container-fluid">
     <a class="navbar-brand" href="{{ route('products.index') }}">NetSuiteScriptDemo</a>
+    <div class="navbar-nav">
+      <a class="nav-link" href="{{ route('products.index') }}">Products</a>
+      <a class="nav-link" href="{{ route('books.index') }}">Demo RESTlet - Books</a>
+    </div>
   </div>
   </nav>
   <main class="container py-4">

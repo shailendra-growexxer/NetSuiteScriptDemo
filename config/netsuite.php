@@ -10,4 +10,10 @@ return [
     'realm' => env('NETSUITE_REALM'),
     'endpoint' => env('NETSUITE_ENDPOINT', 'https://webservices.netsuite.com'),
     'app_id' => env('NETSUITE_APP_ID'),
+    
+    // RESTlet Configuration
+    'restlet_url' => env('NETSUITE_RESTLET_URL'),
+    'script_id' => env('NETSUITE_SCRIPT_ID'),
+    'deploy_id' => env('NETSUITE_DEPLOY_ID'),
+    'auth_token' => env('NETSUITE_AUTH_TOKEN'),
 ];
